@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Broadway Dataset</title>
+
+        <!-- styles -->
+        <link rel="stylesheet" href="styles/styles.css">
+        <!-- dataset -->
+        <script src="scripts/dataset.js"></script>
+
+    </head>
+    <body>
+        <main id="left-column">
+            <h1>Broadway Dataset</h1>
+            <p>This library holds data about over Broadway shows, grouped over weeklong periods.
+                This set includes info of at least 500 shows (or elements.) More info at: <a href="url">http://www.broadwayleague.com/.</a></p>
+            <hr>
+            <div>
+                <section>
+                    <label>Show Name:</label>
+                    <span id="name">...</span>
+                </section>
+                <section>
+                    <label>Year:</label>
+                    <span id="year">...</span>
+                </section>
+                <section>
+                    <label>Full Date:</label>
+                    <span id="date">...</span>
+                </section>
+                <section>
+                    <label>Theatre Name:</label>
+                    <span id="theatre">...</span>
+                </section>
+                <section>
+                    <label>Type of Show:</label>
+                    <span id="type">...</span>
+                </section>
+
+                <section>
+                    <button id="previous"><</button>
+                    <button id="next">></button>
+                </section>
+            </div>
+        </main>
+        <aside id="right-column">
+            <h2>Here are some interesting facts in my dataset!</h2>
+            <ul>
+                <li id="1"></li>
+                <li id="2"></li>
+            </ul>
+        </aside>
+
+        <!-- script-->
+        <script src="scripts/program_behavior.js"></script>
+
+    </body>
+</html>
+
